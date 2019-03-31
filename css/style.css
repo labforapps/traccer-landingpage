@@ -219,6 +219,9 @@ li.space {
   background-color: #A3CEF0;}.content h1, .content p{
     color:#333;
   }
+  .col-xs-9.col-sm-6.col-md-7.col-lg-6.phone-part.text-left {
+    margin-left: -25px;
+}
   /*----------Price Box--------------*/
 
 * {
@@ -808,6 +811,12 @@ font-weight: bold;
   and (max-width: 1024px)
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    img.pasos.apps {
+        margin-left: 28px;
+    }
+    img.pasos.contratista {
+        margin-left: 37px;
+    }
       .prices{
           margin: 0;
       }
@@ -828,14 +837,20 @@ font-weight: bold;
         font-weight: 300;
     }
     .pasost3 {
-        margin-top: 3px;
+        margin-top: 4px;
         font-size: 17px;
-        margin-left: 36px;
+        margin-left: 63px;
         font-weight: 300;
     }
     .pasos10 {
         margin-top: 17px;
-        margin-left: -8px;
+        margin-left: -22px;
+    }
+    .pasost2 {
+        margin-left: 4px;
+    }
+    img.pasos.suplidores {
+        margin-left: 56px;
     }
     .hrstyle {
         margin-top: 94px;
@@ -1297,6 +1312,10 @@ footer {
   and (max-height: 1366px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
+    .pasos11 {
+        margin-top: 16px;
+        margin-left: 31px;
+    }
     .prices {
         margin-left: 69px;
     }
@@ -1343,31 +1362,30 @@ footer {
                 
     font-size: 30px !important;
             }
-    .hrstyle {
-        margin-top: 98px!important;
-        margin-bottom: 20px!important;
-        border: 0!important;
-        border-top: 2px solid #FBB03B!important;
-        margin-left: 13px!important;
-    }
-    .hrstyle {
-    margin-top: 98px!important;
-    margin-bottom: 20px!important;
-    border: 0!important;
-    border-top: 2px solid #FBB03B!important;
-    margin-left: 13px!important;
-}
+            .hrstyle {
+                margin-top: 93px!important;
+                margin-bottom: 20px!important;
+                border: 0!important;
+                border-top: 2px solid #FBB03B!important;
+                margin-left: -154px!important;
+            }
+            .col-xs-3.col-sm-3.col-md-3.col-lg-3.pasos9 {
+                padding-left: 34px;
+            }
+    
 h1 {
     /* font-size: 40px!important; */
 }
 .iphone2 {
-    width: 158%!important;
-    margin-left: -258px!important;
-    margin-top: -42px!important;
+  
+    width: 242%!important;
+    margin-left: -300px!important;
+    margin-top: -73px!important;
 }
 .pc {
-    width: 123%!important;
-    margin-left: 164px!important;
+   
+    width: 180%!important;
+    margin-left: 92px!important;
     margin-top: 66px!important;
 }
 .circle1 {
@@ -1424,8 +1442,6 @@ h1 {
 .pasost {
     margin: 0px!important;
     font-size: 18px!important;
-    font-weight: 300!important;
-    width: 134%!important;
 }
 .pasostt {
     width: 137%!important;
@@ -1448,8 +1464,9 @@ h1 {
     margin-left: 58px!important;
 }
 .pasost3 {
-    margin-left: 80px!important;
-    margin-top: 3px;
+    
+    padding-left: 27px;
+    padding-top: 2px;
   }
   .copy3 {
     position: absolute!important;
