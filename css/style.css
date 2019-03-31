@@ -581,13 +581,13 @@ img.traccerlogo {
     margin-top: 20px;
 }
 img.pasos.contratista {
-    margin-left: 30px;
+    margin-left: 46px;
 }
 img.pasos.suplidores {
-    margin-left: 42px;
+    margin-left: 73px;
 }
 img.pasos.apps {
-    margin-left: 46px;
+    margin-left: 72px;
 }
 .pasost{
     
@@ -625,30 +625,31 @@ img.pasos.apps {
 }
 .pasos9{
     margin-top: 14px;
-    margin-left: -2px;
+    margin-left: -18px;
 }
 .pasos10{
 
     width: 356px;
     margin-top: 17px;
-    margin-left: -16px;
+    margin-left: -19px;
 }
 .pasost2{
    
-    margin-left: -13px;
-    margin-top: 2px;
+  
+    margin-left: 20px;
+    margin-top: 4px;
     font-size: 19px;
     
     font-weight: 300;
 }
 .pasos11{
-    margin-top: 12px;
+    margin-top: 16px;
     margin-left: 3px;
 }
 .pasost3{
-    margin-top: 2px;
+    margin-top: 4px;
     font-size: 19px;
-    margin-left: 36px;
+    margin-left: 81px;
     
     font-weight: 300;
 }
