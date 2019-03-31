@@ -966,21 +966,94 @@ font-weight: bold;
 and (min-width: 375px) 
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) { 
+and (orientation: portrait) {
+    .price_columns.profesional {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .price_columns {
+        margin-top: 25px;
+    }
+
+    .pricebutton {
+        right: 50;
+    }
+    .incluyeReq .ocupation {
+        line-height: 29px;
+    }
+    .section8 {
+        background-color: #A3CEF0;
+        height: calc(212vh - 93px);
+    }
+    .ballonimg {
+        background-size: 69px;
+        background-position: left 27px top 50px;
+    }
+    .prices {
+        margin-left: -2px;
+        margin-top: 80px;
+    }
+    .free-traccer {
+        margin-top: 57px;
+    } 
+    h2 {
+        font-size: 20px;
+    }
+    .testimonios {
+        margin-top: -249px;
+        margin-left: 39px;
+    }
+    .h1clients {
+        margin-top: -53px;
+        margin-left: 23px;
+    }
+    .h1.clientsTittle{
+        font-size: 48px;
+    }
+    .clientsTittles {
+        font-size: 23px!important;
+    }
+    .secondpart {
+        margin-top: -191px;
+    }
+    .users {
+        margin-top: -11px;
+    }
+    .sectionsix {
+        margin-top: -67px;
+    }
+    .section-six {
+        height: calc(167vh - 68px);
+    }
+    .btnPlanes {
+        margin-top: 40px;
+        margin-left: 74px;
+    }
+    .section-for {
+        height: calc(108vh - 52px);
+    }
+    .pasos9 {
+        margin-top: 14px;
+        margin-left: -18px;
+    }
+    
     img.pasos.apps {
         margin-left: -29px;
         margin-top: -46px;
     }
     img.pasos.contratista {
         margin-top: 60px;
-        margin-left: -59px;
+        margin-left: -50px;
     }
     .pasost3 {
-        margin-top: 62px;
-        font-size: 19px;
-        margin-left: -160px;
-        font-weight: 300;
-    }
+     
+    margin-top: -1px;
+    font-size: 19px;
+    margin-left: -78px;
+    font-weight: 300;
+}
+    
     img.pasos.suplidores {
         margin-left: -150px;
         margin-top: 19px;
@@ -988,30 +1061,39 @@ and (orientation: portrait) {
     }
     .pasost2 {
         
-    margin-left: -85px;
+    margin-left: -53px;
         padding-top: 16px;
     }
     .col-xs-12.col-sm-3.col-md-3.col-lg-3.pasos12 {
         margin-left: -92px;
         margin-top: 31px;
     }
+    
     .clientesp{
-    margin-top: -8px!important;
-    margin-left: -24px!important;
+ 
+        margin-top: -8px!important;
+        margin-left: 20px!important;
     }
     .pasos10 {
-        margin-top: 8px;
-        margin-left: -13px;
+        margin-top: 4px;
+    
+    margin-left: -47px;
+    }
+    p.pasostt {
+        margin-left: 62px;
     }
     .pasos5 {
         margin-top: 96px;
     }
     .pasos7 {
-        margin-left: -14px;
+      
+    margin-left: 16px;
+    margin-top: 26px;
     }
     .pasos8 {
-        margin-top: 8px;
-        margin-left: -12px;
+      
+    margin-left: 16px;
+    margin-top: 3px;
     }
     .pasost {
         width: 255px;
@@ -1026,7 +1108,7 @@ and (orientation: portrait) {
         margin-left: -34px;
     }
     .pasos6 {
-        margin-left: -27px;
+        margin-left: 19px;
     }
     .pc {
         width: 286px;
@@ -1098,6 +1180,10 @@ and (orientation: portrait) {
     .pasostt{
         
     width: 280px;
+    }
+    .pasos11 {
+        margin-top: 16px;
+        margin-left: 30px;
     }
 }
 
