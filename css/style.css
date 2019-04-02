@@ -552,6 +552,7 @@ img.traccerlogo {
     box-shadow: 0px 0px 6px #FBB03B;
     width: 200px;
     height: 70px;
+    padding: 17px;
 }
 .pasos{
     
@@ -961,6 +962,17 @@ font-weight: bold;
             margin-top: 15px;
         }
   }
+    /*iphone X*/
+  /* Portrait */
+@media only screen 
+and (min-width: 414px) 
+and (max-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    
+}
+
+  /*iphone X*/
   /* Portrait */
 @media only screen 
 and (min-width: 375px) 
@@ -1319,6 +1331,8 @@ footer {
     width: 113vw;
 }
 }
+
+
 /* Landscape */
 @media only screen 
   and (min-width: 768px) 
