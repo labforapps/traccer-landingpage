@@ -544,7 +544,7 @@ img.traccerlogo {
     margin-top: 66px;
 }
 .btnPlanes{
-    margin-top: 117px;
+    margin-top: 90px;
     color: white;
     background-color: #FBB03B;
     border-color: #FBB03B;
@@ -591,15 +591,8 @@ img.pasos.suplidores {
     margin-left: 73px;
 }
 img.pasos.apps {
-    margin-left: 72px;
 }
-.pasost{
-    
-    margin: 0px;
-    font-size: 18px;
-    font-weight: 300;
-    width:303px
-}
+
 .pasostt{
     
     margin: 0px;
@@ -607,10 +600,11 @@ img.pasos.apps {
 }
 .numero3{
     margin: 0px;
-    font-size: 19px;
+    font-size: 16px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     background: orange;
+    color: #fff;
     border-radius: 50%;
     width: 28px;
     margin-left: 11px;
@@ -793,7 +787,40 @@ font-weight: bold;
     margin-left: -7px;
 }
 
+.step-row {
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+}
 
+.step-row-icons {
+    margin-left: 56px; 
+    margin-bottom: 30px
+}
+
+.step-icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.step-icon-label{
+    font-weight: 100;
+    margin-left: 15px;
+}
+.step-row label {
+    font-weight: 100;
+}
+
+.how-works-detail {
+    padding: 0 50px;
+}
+
+.pasost {
+    margin-left: 15px;
+}
 
 .price_columns.profesional {
     transform: scale3d(1.1, 1.1, 1);
@@ -813,7 +840,6 @@ font-weight: bold;
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
     img.pasos.apps {
-        margin-left: 28px;
     }
     img.pasos.contratista {
         margin-left: 37px;
@@ -832,11 +858,7 @@ font-weight: bold;
     .step-container {
         margin-top: 216px;
     }
-    .pasost {
-        margin: 0px;
-        font-size: 16px;
-        font-weight: 300;
-    }
+    
     .pasost3 {
         margin-top: 4px;
         font-size: 17px;
@@ -959,7 +981,7 @@ font-weight: bold;
             font-size: 16px;
         }
         .btnPlanes {
-            margin-top: 15px;
+            margin-top: -4px;
         }
   }
     /*iphone X*/
@@ -982,6 +1004,11 @@ and (orientation: portrait) {
     .price_columns.profesional {
         transform: none;
         box-shadow: none;
+    }
+    .download-app-container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .price_columns {
@@ -1039,8 +1066,9 @@ and (orientation: portrait) {
         height: calc(167vh - 68px);
     }
     .btnPlanes {
-        margin-top: 40px;
-        margin-left: 74px;
+       
+    margin-top: 84px;
+        margin-left: 37px;
     }
     .section-for {
         height: calc(108vh - 52px);
@@ -1051,8 +1079,6 @@ and (orientation: portrait) {
     }
     
     img.pasos.apps {
-        margin-left: -29px;
-        margin-top: -46px;
     }
     img.pasos.contratista {
         margin-top: 60px;
@@ -1107,18 +1133,40 @@ and (orientation: portrait) {
     margin-left: 16px;
     margin-top: 3px;
     }
-    .pasost {
-        width: 255px;
-    }
     img.pasos {
-        margin-left: 30px;
     }
     .numero3 {
-        margin-left: 32px;
     }
     .step-container {
-        margin-left: -34px;
+        padding: 0;
     }
+
+    
+    .step-row {
+        font-size: inherit;
+    }
+
+    .step-icon {
+        margin-right: 5px;
+        font-size: inherit;
+    }
+
+    .step-icon-label { 
+        font-weight: 100;
+        margin-left: 0px;
+    }
+
+    .step-row label {
+    }
+
+    .step-row-icons {
+        margin-left: 0; 
+    }
+
+    .how-works-detail {
+        padding: 0;
+    }
+
     .pasos6 {
         margin-left: 19px;
     }
@@ -1191,7 +1239,6 @@ and (orientation: portrait) {
 }
     .pasostt{
         
-    width: 280px;
     }
     .pasos11 {
         margin-top: 16px;
@@ -1205,7 +1252,9 @@ and (min-width: 375px)
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
-  
+    .container-box.col-xs-12.col-sm-6.col-md-6.col-lg-6.phone-container {
+        margin-top: 29px;
+    }
     .section-for {
         height: calc(121vh - 52px)!important;
     }
@@ -1234,7 +1283,7 @@ and (orientation: landscape) {
     .step-container {
         margin-top: -269px!important;
     margin-left: 121px!important;
-    padding-left: 162px;
+    padding-left: 220px;
     }
     .section4T {
         font-size: 26px !important;
@@ -1339,9 +1388,15 @@ footer {
   and (max-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-.Planbtn {
-        margin-top: 44px!important;
-    } 
+    .Planbtn {
+        margin-top: 30px!important;
+    }
+    img.pasos.apps {
+        width: 200px;
+        
+    margin-left: 0;
+    }
+
     .step-container {
         margin-top: -56px;
     margin-left: 0px;
@@ -1453,7 +1508,7 @@ footer {
         padding: 6px 29px!important;
     }
     .btnPlanes {
-        margin-top: 51px!important;
+        margin-top: 51px;
     }
     .btnRegister {
             width: 48%!important;
@@ -1539,18 +1594,15 @@ h1 {
 .pasos5 {
     margin-left: -15px!important;
 }
-.pasost {
-    margin: 0px!important;
-    font-size: 18px!important;
-}
 .pasostt {
-    width: 137%!important;
 }
 .btnPlanes {
-    margin-top: 137px!important;
+    margin-top: 120px;;
 }
 .apps{
-    margin-left: 42px!important;
+    
+    width: 203px;
+    margin-left: 0;
 }
 .contratista{
     margin-left: 25px!important;
@@ -1599,7 +1651,7 @@ h1 {
         height: calc(63vh - 68px);
     }
     .btnPlanes {
-        margin-top: 99px;
+        margin-top: 85px;
     }
     
 }
