@@ -984,15 +984,182 @@ font-weight: bold;
             margin-top: -4px;
         }
   }
-    /*iphone X*/
+
+  /*iphone 6/7/8 */
+  /* Portrait */
+  @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pricebutton {
+        left: 100;
+    }
+    .price_columns.profesional {
+        transform: none;
+        box-shadow: none;
+    }
+    .section8 {
+        height: calc(280vh - 93px);
+    }
+    .prices {
+        margin-left: -2px;
+    
+        margin-top: 134px;
+    }
+    .price_columns {
+        margin-top: 54px;
+    }
+    .titlecolor {
+        font-size: 23px;
+    }
+    .ballonimg {
+        background-position: left 9px top 50px;
+    }
+    .section-six {
+        height: calc(192vh - 68px);
+    }
+    .secondpart {
+        margin-top: -182px;
+    }
+    h1.clientsTittles.inline-block {
+        
+    font-size: 23px;
+    }
+    .sectionsix {
+        margin-top: -71px;
+    }
+    .testimonios {
+        margin-top: -251px;
+        margin-left: 36px;
+    }
+    .h1clients {
+        margin-top: -62px;
+    }
+    .btnPlanes {
+        margin-top: 13px;
+    }
+    .step-icon {
+        font-size: 12px;
+    }
+    .section-for {
+        height: calc(121vh - 52px);
+    }
+    .how-works-detail {
+        padding: 0;
+    }
+    .circle3-p {
+        margin-top: 12px;
+        width: 115px;
+        font-size: 13px;
+    }
+    .hrstyle {
+        margin-top: 92px;
+        margin-bottom: 20px;
+        margin-left: -28px;
+    }
+    .pc {
+        width: 289px;
+        margin-left: 39px;
+        margin-top: -10px;
+    }
+    .step-row {
+        font-size: 15px;
+    padding: 0px;
+}
+.step-row-icons {
+    margin-left: 3px;
+}
+    .iphone2 {
+        
+    width: 219%;
+    margin-left: -237px;
+    margin-top: -96px;
+    }
+    .section4T {
+        margin-left: -24px;
+    }
+    
+    .circle3 {
+        margin-top: 62px;
+    }
+    .titlecontrol {
+        font-size: 27px;
+    }
+    .project-p {
+        width: 343px;
+        font-size: 16px;
+    }
+    .container-box.col-xs-12.col-sm-6.col-md-6.col-lg-6.phone-container.phone678 {
+        margin-top: 124px;
+    }
+    .btnRegister {
+        width: 60%;
+    }
+    .section-one {
+        height: 107vh;
+    }
+    .circle-p {
+        font-size: 12px;
+        margin-left: -33px;
+    }
+    .circl1img{
+        width: 62px;
+    }
+    .circle1 {
+        margin-top: -28px;
+        margin-left: 2px;
+    }
+    img.circle2img {
+        width: 40px;
+    }
+    .circle2 {
+        margin-top: 51px;
+    }
+    .circle2-p {
+        font-size: 12px;
+    margin-left: -16px;
+    }
+  }
+
+    /*iphone 6/7/8 plus*/
   /* Portrait */
 @media only screen 
 and (min-width: 414px) 
 and (max-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
-    
+    .section-one {
+        height: 110vh;
+    }
+    .btnPlanes {
+        margin-top: 3px;
+        margin-left: 37px;
+    }
+    section#testimonios {
+        height: calc(175vh - 68px);
+    }
+    a.btn.btn-default.navbar-btn.btnPlanes.btn-lg.Planbtn {
+        margin-top: 3px;
+        margin-left: 37px;
+    }
+    section#planes {
+        height: calc(232vh - 93px);
+    }
+  
 }
+ /*iphone 6/7/8 plus*/
+  /* Portrait */
+  @media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    div#hero1 {
+        width: 168vw;
+    } 
+    
+  }
 
   /*iphone X*/
   /* Portrait */
@@ -1001,6 +1168,9 @@ and (min-width: 375px)
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
+    .container-box.col-xs-12.col-sm-6.col-md-6.col-lg-6.phone-container.phone678 {
+        margin-top: 0px;
+    }
     .price_columns.profesional {
         transform: none;
         box-shadow: none;
