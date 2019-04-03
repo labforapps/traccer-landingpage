@@ -68,7 +68,7 @@ nav.navbar.navbar-default {
     top: -1px;
     height: 73px;
     box-shadow: 0px 3px 10px black;
-    z-index: 999999999999999999;
+    /* z-index: 999999999999999999; */
 }
 
 .navbar-header { 
@@ -156,7 +156,7 @@ li.space {
   .inner{
     min-height:500px;
     position: relative;
-    z-index: 99999999;
+    /* z-index: 99999999; */
   }
   
   section.content.clientes {
@@ -222,6 +222,11 @@ li.space {
   .col-xs-9.col-sm-6.col-md-7.col-lg-6.phone-part.text-left {
     margin-left: -25px;
 }
+
+.modal-content {
+    border-radius: 0;
+}
+
   /*----------Price Box--------------*/
 
 * {
