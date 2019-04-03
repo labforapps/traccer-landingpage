@@ -162,7 +162,7 @@ li.space {
 }
 
 .section-one {
-    height: 100vh;
+    height: calc(100vh - 44px);
 }
 #hero1{
     background:url(../img/adult.png)no-repeat center;
@@ -477,16 +477,20 @@ font-weight: bold !important;
     border-color: #FBB03B;
     font-size: 24px;
     box-shadow: 0px 0px 6px #FBB03B;
-    width: 35%;
-    height: 35%;
+    width: 45%;
+    height: 55%;
+}
+
+.manage-projects {
+    padding: 50px;
 }
 .project-p{
-    line-height: 31px;
+    line-height: 35px;
     margin-top: 9px;
     text-align: justify !important;
     font-family: 'Helvetica';
-    font-size: 20px;
-    padding-right: 33%;
+    font-size: 26px;
+    padding-right: 25%;
 }
 .btn-sign-in{
     color: white;
@@ -554,10 +558,10 @@ img.traccerlogo {
     margin-top: 5px;
 }
 .section-for{
-    height: calc(100vh - 52px);
+    height: calc(100vh - 144px);
 }
 .section-six{
-    height: calc(100vh - 68px);
+    height: calc(100vh - 139px);
 }
 .section5 {
     height: 68px;
@@ -1972,13 +1976,13 @@ h1 {
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
   .section-one{
-      height: 100vh;
+      height: calc(100vh - 44px);
   }
     .section-for{
-        height: calc(100vh - 52px);
+        height: calc(100vh - 144px);
     }
     .section-six{
-        height: calc(100vh - 68px);
+        height: calc(100vh - 139px)
     }
     .section8{
         
