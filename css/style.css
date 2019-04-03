@@ -1008,10 +1008,10 @@ font-weight: bold;
     }
     footer {
        
-        width: 200vw;
+        width: 100vw;
     }
     .section8 {
-        width: 200vw;
+        width: 100vw;
     height: calc(340vh - 93px);
     }
     h1.clientsTittle {
@@ -1022,10 +1022,10 @@ font-weight: bold;
 width: 92px;
     }
     .section7 {
-        width: 200vw;
+        width: 100vw;
     }
     .section-six {
-        height: calc(251vh - 68px);
+        height: calc(100vh - 68px);
     }
     .secondpart {
         margin-top: -100px;
@@ -1037,10 +1037,10 @@ width: 92px;
         margin-top: -36px;
     }
     .section-six {
-        width: 200vw;
+        width: 100vw;
     }
     .section5 {
-        width: 200vw;
+        width: 100vw;
     }
     .btnPlanes {
         margin-top: 1px;
@@ -1059,21 +1059,21 @@ width: 92px;
     margin-left: -333px;
 }
     .section-one {
-        height: 160vh;
-        width: 200vw;
+        height: 100vh;
+        width: 100vw;
     }
     .phone678 {
         margin-top: 124px;
     }
     .section3 {
-        width: 200vw;
+        width: 100vw;
     }
     .section-for {
-        height: calc(157vh - 52px);
-        width: 200vw;
+        height: calc(100vh - 52px);
+        width: 100vw;
     }
     .step-container {
-        margin-top: 181px;
+        margin-top: 65px;
     }
 }
 
@@ -1084,9 +1084,8 @@ width: 92px;
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
-
-  /*iphone 6/7/8 */
+} 
+/*iphone 6/7/8 */
   /* Portrait */
   @media only screen 
   and (min-width: 375px) 
