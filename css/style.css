@@ -298,6 +298,8 @@ li.space {
     top: -5;
 }
   
+.how-works-container {
+}
   @media only screen and (max-width: 520px) {
     .pricecolumns {
       width: 100%;
@@ -445,13 +447,12 @@ font-weight: bold !important;
     height: 35%;
 }
 .project-p{
-    width: 490px;
-    line-height: 27px;
+    line-height: 31px;
     margin-top: 9px;
     text-align: justify !important;
-    text-align: left;
     font-family: 'Helvetica';
-    font-size: 18px;
+    font-size: 20px;
+    padding-right: 33%;
 }
 .btn-sign-in{
     color: white;
@@ -475,6 +476,8 @@ img.iphone {
     padding: 0 !important;
 }
 
+.phone-container {
+}
 .phone-container .phone-part {
     padding: 0 !important;
 }
@@ -539,14 +542,17 @@ img.traccerlogo {
 
 }
 .iphone2{
-    width: 158%;
+    width: 100%;
+    /* width: 158%;
     margin-left: -351px;
-    margin-top: -64px;
+    margin-top: -64px; */
 }
 .pc{
-    width: 380px;
+    width: 100%;
+    
+    /* width: 380px;
     margin-left: 230px;
-    margin-top: 66px;
+    margin-top: 66px; */
 }
 .btnPlanes{
     margin-top: 90px;
@@ -665,7 +671,7 @@ img.pasos.apps {
 }
 
 .step-container {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .conversation{
     margin-top: 63px;
@@ -736,6 +742,24 @@ img.pasos.apps {
     padding: 0 10%;
 }
 
+.iphone-container {
+    width: 70%;
+    position: absolute;
+    top: -100px;
+    z-index: 1;
+}
+
+.iphone-container img{
+    width: 100%;
+}
+
+.macbook-container {
+    width: 70%;
+}
+
+.macbook-container img{
+    width: 100%;
+}
 .display-block {
     display: block;
 }
@@ -861,7 +885,6 @@ font-weight: bold;
         margin-top: -64px;
     }
     .step-container {
-        margin-top: 216px;
     }
     
     .pasost3 {
@@ -1020,7 +1043,7 @@ font-weight: bold;
     height: calc(340vh - 93px);
     }
     h1.clientsTittle {
-        font-size: 58px;
+        font-size: 40px;
         margin-left: 46px;
     }    
     .conversationimg{
@@ -1192,8 +1215,9 @@ width: 92px;
         font-size: 27px;
     }
     .project-p {
-        width: 343px;
+        width: 100% !important;
         font-size: 16px;
+        line-height: 20px;
     }
     .container-box.col-xs-12.col-sm-6.col-md-6.col-lg-6.phone-container.phone678 {
         margin-top: 124px;
@@ -1273,8 +1297,11 @@ and (min-width: 375px)
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
+    .copy { 
+        margin-top: 90px;
+    }
     .container-box.col-xs-12.col-sm-6.col-md-6.col-lg-6.phone-container.phone678 {
-        margin-top: 0px;
+        margin-top: 0;
     }
     .price_columns.profesional {
         transform: none;
@@ -1467,6 +1494,8 @@ and (orientation: portrait) {
     .project-p {
         font-size: 16px;
         width: 334px;
+        line-height: 20px;
+        width: 100% !important;
     }
 
     .titlecontrol {
@@ -1909,21 +1938,21 @@ h1 {
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
   .section-one{
-      height: 63vh;
+      height: 100vh;
   }
     .section-for{
-        height: calc(63vh - 52px);
+        height: calc(100vh - 52px);
     }
     .section-six{
-        height: calc(63vh - 68px);
+        height: calc(100vh - 68px);
     }
     .section8{
         
         background-color: #A3CEF0;
-        height: calc(68vh - 93px);
+        height: calc(100vh - 93px);
     }
     #section-six{
-        height: calc(63vh - 68px);
+        height: calc(100vh - 68px);
     }
     .btnPlanes {
         margin-top: 85px;
@@ -1947,3 +1976,11 @@ h1 {
         height: calc(40vh - 93px);
     }
 }*/
+
+@media screen 
+  and (max-width: 991px) {
+    .macbook-container {
+        width: 50%;
+        margin-bottom: 80px;
+    }
+  }
