@@ -984,6 +984,107 @@ font-weight: bold;
             margin-top: -4px;
         }
   }
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pricebutton {
+        left: 249;
+    }
+    .price_columns.profesional {
+        transform: none;
+        box-shadow: none;
+    }
+    .prices {
+        margin-left: -2px;
+    
+        margin-top: 134px;
+    }
+    .price_columns {
+        margin-top: 54px;
+    }
+    footer {
+       
+        width: 200vw;
+    }
+    .section8 {
+        width: 200vw;
+    height: calc(340vh - 93px);
+    }
+    h1.clientsTittle {
+        font-size: 58px;
+        margin-left: 46px;
+    }    
+    .conversationimg{
+width: 92px;
+    }
+    .section7 {
+        width: 200vw;
+    }
+    .section-six {
+        height: calc(251vh - 68px);
+    }
+    .secondpart {
+        margin-top: -100px;
+    }
+    .users {
+        margin-top: -56pxpx;
+    }
+    .h1clients {
+        margin-top: -36px;
+    }
+    .section-six {
+        width: 200vw;
+    }
+    .section5 {
+        width: 200vw;
+    }
+    .btnPlanes {
+        margin-top: 1px;
+    }
+    .pc {
+        margin-left: 161px;
+        margin-top: 50px;
+    }   
+    .section4T {
+        margin-left: -10px;
+    }
+    .hrstyle {
+        margin-left: -219px;
+    }
+.iphone2 {
+    margin-left: -333px;
+}
+    .section-one {
+        height: 160vh;
+        width: 200vw;
+    }
+    .phone678 {
+        margin-top: 124px;
+    }
+    .section3 {
+        width: 200vw;
+    }
+    .section-for {
+        height: calc(157vh - 52px);
+        width: 200vw;
+    }
+    .step-container {
+        margin-top: 181px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
 
   /*iphone 6/7/8 */
   /* Portrait */
@@ -1824,4 +1925,21 @@ h1 {
         margin-top: 85px;
     }
     
-}
+}/*
+@media screen 
+  and (min-width: 826px) 
+  and (max-width: 1900px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .section-one {
+        height: 30vh;
+    }
+    .section-for {
+        height: calc(49vh - 52px);
+    }
+    .section-six {
+        height: calc(35vh - 68px);
+    }
+    .section8 {
+        height: calc(40vh - 93px);
+    }
+}*/
