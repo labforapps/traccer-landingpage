@@ -69,7 +69,7 @@
 }
 
 .manage-projects-description p{
-    padding-right: 30%;
+    padding-right: 45%;
     text-align: justify;
     line-height: 40px;
     margin-top: 35px;
@@ -594,6 +594,61 @@ li.space {
 /* New religion ends here  */
 
 
+@media screen and (max-width: 1600px) {
+    .manage-projects-description p{
+        padding-right: 30%;
+    }
+}
 
+@media screen and (max-width: 1200px) {
+    .manage-projects-description p{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    
+    .manage-projects-description h1{
+        font-size: 2em;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    .manage-projects-description p{
+    }
+    
+    .manage-projects-description h1{
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .manage-projects-description{
+        text-align: center;
+    }    
+    .manage-projects-description p{
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    
+    .manage-projects-description h1{
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .manage-projects-description p{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
 
