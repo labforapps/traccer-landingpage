@@ -260,6 +260,11 @@
 .testimonies-users-title .tut-header {
     font-weight: bold;
 }
+
+.testimonie-user {
+    margin-bottom: 80px;
+}
+
 .testimonies-users-title img {
     margin-top: -20px;
 }
@@ -269,7 +274,7 @@
 }
 
 .profesion{
-    width:200px;
+    width:250px;
     text-align: left !important;
     margin: 0 auto;
     color: #ffffff;
@@ -296,6 +301,139 @@
     bottom: 0;
     left: 0;
 }
+
+
+.pricing-section {
+    min-height: calc(100vh - 141px);
+    position: relative;
+    background-image: url(../img/balloon.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left 50px top 50px;
+    background-color: #A3CEF0;
+}
+
+.pricing-title {
+    color:#014A83;
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+.pricing-title h2 {
+    font-weight: bold;    
+}
+
+.pricing-container {
+}
+
+
+
+.prices-info-container {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.price_columns.profesional {
+    transform: scale3d(1.1, 1.1, 1);
+    box-shadow: 0px 0px 6px 2px rgb(251, 176, 59);
+    border-radius: 20px;
+}
+
+.pricing-features {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pricing-features .pricing-feature-title{
+    font-size: 20px;
+    line-height: 85px;
+    color: #fff;
+
+}
+
+.pricing-features .pricing-feature {
+    line-height: 40px;
+    color:#014A83;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+  }
+  
+  .price .priceheader {
+    background-color: #014A83;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 15px 15px 0px 0px;
+    height: 60px;
+    padding: 15px;
+  }
+  
+  .price li {
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #FFFFEF;
+    color: #014a83;
+    font-weight: 700;
+    position: relative;
+    height: 45px;
+  }
+
+  .price .grey-border {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 100%;
+    padding: 15px 0;
+  }
+
+  .price .grey:nth-last-child(2) {
+    border-bottom: 0;
+  }
+
+  .price .grey:last-child {
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 0;
+  }
+
+  .pricebutton-container {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+  }
+  
+.pricebutton {
+    background-color: #014A83;
+    border-color: #014A83;
+    
+    border: none;
+    color: white;
+    padding: 15px 44px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pricebutton:hover {
+    color: #fff;
+}
+
+.price_columns.profesional .pricebutton {
+    background-color: #FBA614;
+    border-color: #FBA614;
+    box-shadow: 0px 0px 6px #FBB03B;
+}
+
+
 /* New religion ends here  */
 
 
@@ -332,9 +470,6 @@
 .inputstyle{
     
     border: 1px solid #3B86FF;
-}
-.prices{
-    margin-left: 99px;
 }
 footer{
     background-color: #014A83;
@@ -384,7 +519,6 @@ nav.navbar.navbar-default {
 }
 .titlecontrol{
     font-size: 48px;
-    font-family: Helvetica;
     font-weight: bold;
     margin: 0px;
     padding: 0px 20px;
@@ -487,7 +621,6 @@ li.space {
   .content h1, .content p{
     
     margin-top: 1em;
-    font-family: 'Helvetica-Neue';
     color: #014A83 ;
     filter: opacity(100%);
     font-weight: bold;
@@ -522,115 +655,15 @@ li.space {
 
   /*----------Price Box--------------*/
 
-* {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-  }
   
-  .price_columns {
-    font-family: Helvetica;
-  }
-  
-  .price {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  
-  .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
-  }
-  
-  .price .priceheader {
-    background-color: #014A83;
-    color: white;
-    font-size: 25px;
-    border-radius: 15px 15px 0px 0px;
-  }
-  
-  .price li {
-    padding: 10px 25px;
-    text-align: center;
-  }
-  
-  .price .grey {
-    background-color: #FFFFEF;
-    
-    color: #014a83;
-    font-weight: 700;
-    position: relative;
-  }
 
-  .price .grey-border {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-  }
-
-  .price .grey:nth-last-child(2) {
-    border-bottom: 0;
-  }
-
-  .price .grey:last-child {
-    border-radius: 0px 0px 15px 15px;
-    border-bottom: 0;
-  }
   
-  .pricebutton {
-    background-color: #FBA614;
-    border: none;
-    color: white;
-    padding: 6px 37px;
-    text-align: center;
-    text-decoration: none;
-    border-color: #FBB03B;
-    box-shadow: 0px 0px 6px #FBB03B;
-    position: absolute;
-    left: 50;
-    top: -5;
-}
+  
   
 .how-works-container {
 }
-  @media only screen and (max-width: 520px) {
-    .pricecolumns {
-      width: 100%;
-    }
-  }
-
-  @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url("https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-}
-@font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url("https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
-}
-@font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 600;
-    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-}
-@font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-}
 
 body {
-	font-family: "Open Sans";
-	line-height: 26px;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Open Sans";
-	font-weight: 300;
 }
 h1 {
 	/* font-size: 46px; */
@@ -683,7 +716,6 @@ h1.clientsTittle{
 color:white !important;
 
 font-size: 48px;
-font-family: Helvetica;
 font-weight: bold;
 text-align: left;
 }
@@ -1031,43 +1063,4 @@ img.pasos.apps {
 .free-traccer{
      margin-top: 70px;
 }
-.titlecolor{
-font-family: Helvetica;
-    color:#014A83;
-font-weight: bold;    
-}
-.incluyeReq{
-    
-    padding-left: 38px;
-    text-align: left !important;
-    margin: 0 auto;
-    color: #ffffff;
-}
 
-
-.incluyeReq .ocupation {
-    font-size: 16px;
-    color:#014A83;
-    line-height: 40px;
-}
-.Incluyetitle{
-    
-    font-size: 16px;
-    line-height: 85px;
-    margin-left: -7px;
-}
-
-
-.pasost {
-    margin-left: 15px;
-}
-
-.price_columns.profesional {
-    transform: scale3d(1.1, 1.1, 1);
-    box-shadow: 0px 0px 6px 2px rgb(251, 176, 59);
-    border-radius: 20px;
-}
-
-.price_columns.profesional .pricebutton {
-    padding: 8px 15px !important;
-}
