@@ -51,7 +51,8 @@
                             de todas las transacciones relacionadas a los
                             proyectos que llevas ya sea como profesional
                             independiente o como empresa.</p>
-                        <button type="button" data-toggle="modal" data-target="#register-user" class="btn btn-default navbar-btn btnRegister btn-lg">Registrate
+                        <button type="button" data-toggle="modal" data-target="#register-user"
+                            class="btn btn-default navbar-btn btnRegister btn-lg">Registrate
                             ya!</button>
                     </div>
                     <div class="container-box  col-xs-12 col-sm-6 col-md-6 col-lg-6 phone-container phone678">
@@ -390,14 +391,32 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Modal title</h4>
+                    <h4 class="modal-title titlemodal">Registrarme</h4>
                 </div>
                 <div class="modal-body">
-                    <p>One fine body&hellip;</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="complete-name" class="control-label labelform">Nombre Completo:</label>
+                            <input type="text" class="form-control inputstyle" placeholder="Nombre y Apellido" id="Complete-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email" class="control-label labelform">Email:</label>
+                            <input type="text" class="form-control inputstyle" id="Email" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone" class="control-label labelform">Telefono de contacto:</label>
+                            <input type="text" class="form-control inputstyle" id="contact-phone" placeholder="Celular">
+                        </div>
+                        <div class="checkbox">
+                                <label>
+                                  <input type="checkbox"> Acepto los términos y condiciones.
+                                </label>
+                              </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-default btncancel" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary btncolor">Crear</button>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
