@@ -32,6 +32,40 @@
     font-family: 'HelveticaNeueBd'; 
     src: url('../fonts/HelveticaNeueBd.ttf') format('truetype');
 }
+.titlemodal{
+  
+    font-weight: 700;
+    color:#014A83;  
+}
+.modal-header {
+    border-bottom: none;
+}
+.checkbox{
+    color:#014A83;
+}
+.labelform{
+    font-weight: 500;
+    color:#014A83;  
+}
+.btncolor{
+    border-radius: 4px!important;
+    background-color: #FBB03B;
+    padding: 9px 38px;
+    border-color: #fbb03b;
+}
+.btncolor:hover {
+    background-color: #8594A0;
+}
+.btncancel{
+    border-radius: 4px!important;
+    background-color: #8594A0;
+    color: white;
+    padding: 9px 38px;
+}
+.inputstyle{
+    
+    border: 1px solid #3B86FF;
+}
 .prices{
     margin-left: 99px;
 }
@@ -1976,6 +2010,8 @@ h1 {
         height: calc(40vh - 93px);
     }
 }*/
+
+
 
 @media screen 
   and (max-width: 991px) {
