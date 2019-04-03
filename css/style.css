@@ -906,6 +906,9 @@ font-weight: bold;
   and (max-width: 1024px)
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .manage-projects {
+        padding: 0;
+    }
     img.pasos.apps {
     }
     img.pasos.contratista {
@@ -1129,7 +1132,7 @@ width: 92px;
         width: 100vw;
     }
     .phone678 {
-        margin-top: 124px;
+        margin-top: 0;
     }
     .section3 {
         width: 100vw;
@@ -1158,6 +1161,15 @@ width: 92px;
   and (max-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .copy {
+        margin-top: 80px;
+    }
+
+    .manage-projects {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    
     .pricebutton {
         left: 100;
     }
@@ -1335,6 +1347,16 @@ and (min-width: 375px)
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
+    .manage-projects {
+        padding: 0;
+        margin-bottom: 0; 
+    }
+    
+
+    .manage-projects p{
+        padding-right: 10px;
+    }    
+
     .copy { 
         margin-top: 90px;
     }
