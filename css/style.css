@@ -135,12 +135,11 @@
 }
 .how-works-image {
     text-align: center;
-    padding: 0 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .how-works-image img {
-    max-width: 50vw;
+    max-width: 35vw;
 }
 
 .step-container {
@@ -189,8 +188,7 @@
 }
 
 .how-works-detail {
-    padding: 0 50px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .how-works-bottom {
@@ -203,7 +201,7 @@
 }
 
 .btnPlanes{
-    margin-top: 90px;
+    margin-top: 40px;
     margin-bottom: 80px;
     color: white;
     background-color: #FBB03B;
@@ -233,6 +231,7 @@
     color: #fff;
     margin-top: 40px;
     padding: 0 40px;
+    margin-bottom: 60px;
 }
 
 .testimonies-title img{ 
@@ -248,6 +247,45 @@
     font-weight: bold;
     text-decoration: underline;
     margin-top: 35px;
+}
+
+.testimonies-container {
+
+}
+
+.testimonies-users-title {
+    color: #fff;
+}
+
+.testimonies-users-title .tut-header {
+    font-weight: bold;
+}
+.testimonies-users-title img {
+    margin-top: -20px;
+}
+
+.testimonies-users-container {
+    margin-top: 100px;
+}
+
+.profesion{
+    width:200px;
+    text-align: left !important;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.profesion label {
+    margin-top: -10px;
+}
+
+.profesion .ocupation-label {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.profesion .ocupation {
+    font-size: 16px;
 }
 
 .testimonies-bottom {
@@ -951,12 +989,7 @@ img.pasos.apps {
     margin-top: 43px;
 }
 
-.profesion{
-    width:200px;
-    text-align: left !important;
-    margin: 0 auto;
-    color: #ffffff;
-}
+
 .section6s{
     
     padding: 0 10%;
@@ -984,18 +1017,6 @@ img.pasos.apps {
     display: block;
 }
 
-.profesion label {
-    margin-top: -10px;
-}
-
-.profesion .ocupation-label {
-    font-weight: 100;
-    font-style: italic;
-}
-
-.profesion .ocupation {
-    font-size: 16px;
-}
 .section8{
     
     background-color: #A3CEF0;
