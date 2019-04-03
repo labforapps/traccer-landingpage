@@ -3,10 +3,11 @@ $(document).ready(function(){
     var Email=document.getElementById("Email").value;
     var Name=document.getElementById("Complete-name").value;
     var Phone=document.getElementById("contact-phone").value;
+  
 var user={
   	 'Name': Name,
      'Email': Email,
-     'Telephone':phone
+     'Telephone':Phone
    };
 
    $.ajax({

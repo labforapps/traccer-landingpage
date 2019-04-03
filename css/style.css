@@ -261,6 +261,10 @@ li.space {
     border-radius: 0;
 }
 
+.modal {
+    z-index: 999999999999;
+}
+
   /*----------Price Box--------------*/
 
 * {
