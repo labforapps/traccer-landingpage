@@ -254,6 +254,7 @@ img.iphone {
     font-weight: bold;
     text-decoration: underline;
     margin-top: 35px;
+    text-align: right;
 }
 
 .testimonies-container {
@@ -268,16 +269,21 @@ img.iphone {
     font-weight: bold;
 }
 
-.testimonie-user {
-    margin-bottom: 80px;
-}
-
 .testimonies-users-title img {
     margin-top: -20px;
 }
 
 .testimonies-users-container {
     margin-top: 100px;
+}
+
+
+.testimonie-user {
+    margin-bottom: 80px;
+}
+
+.testimonie-user img{
+    width: 250px;
 }
 
 .profesion{
@@ -335,6 +341,10 @@ img.iphone {
 
 .prices-info-container {
     margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.price_columns {
     margin-bottom: 50px;
 }
 
@@ -526,7 +536,7 @@ nav.navbar.navbar-default {
     top: -1px;
     height: 73px;
     box-shadow: 0px 3px 10px black;
-    /* z-index: 999999999999999999; */
+    z-index: 999999999999999999;
 }
 
 .navbar-header { 
@@ -631,10 +641,61 @@ li.space {
     .manage-projects-description h1{
         font-size: 1.8em;
     }
+
+    .how-works-image img {
+        max-width: 50vw;
+    }
+
+    .testimonies-title {
+        text-align: center;
+    }
+
+    .testimonie-user img{
+        width: 220px;
+    }
+    
+    .profesion{
+        width:220px;
+    }
+
+    .testimonies-sub-title {
+        text-align: center;
+    }
+
+    .pricing-features {
+        margin-top: 0;
+        margin-bottom: 55px;
+        text-align: center;
+    }
+
+    .step-container {
+        max-width: 71vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .pricing-section {
+        background-position: left 20px top 20px;
+        background-size: 60px;
+    }
 
+    .pricing-title h2 {
+        font-size: 28px;
+    }
+
+    .price_columns.profesional {
+        transform: none;
+    }
+
+    .step-container {
+        max-width: 80vw;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .step-container {
+        max-width: 90vw;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -642,10 +703,83 @@ li.space {
         padding-right: 0;
         padding-left: 0;
     }
+
+    .step-row {
+        font-size: 16px;
+    }
+    .step-row label {
+        font-size: 16px;
+    }
+
+    .step-row-icons {
+        /* padding-left: 0px; */
+    }
+
+    .download-app-container img {
+        width: 160px;
+    }
+
+    .testimonies-users-title img {
+        margin-top: -10px;
+        width: 36px;
+    }
+    .testimonies-users-title .tut-header {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .manage-projects-description h1 {
+        font-size: 1.2em;
+    }
 
+    .manage-projects-description p {
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .btnRegister {
+        margin-top: 40px;
+        font-size: 1em;
+        padding: 15px 30px;
+    }
+    .how-works-detail {
+        padding: 0;
+        margin-top: 30px;
+        
+    }
+
+    .how-works-image img {
+        max-width: 60vw;
+    }
+    .step-container {
+        max-width: 100vw;
+    }
+    .step-row {
+        font-size: 14px;
+    }
+    .step-row label {
+        font-size: 14px;
+    }
+
+    .step-row-icons {
+        padding-left: 0px;
+    }
+
+    .download-app-container img {
+        width: 160px;
+    }
+    .step-icon-label {
+        margin-left: 0;
+    }
+
+    .testimonies-users-title img {
+        margin-top: -10px;
+        width: 36px;
+    }
+    .testimonies-users-title .tut-header {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
