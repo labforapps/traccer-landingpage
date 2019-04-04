@@ -658,6 +658,9 @@ li.space {
     .manage-projects-description p{
     }
     
+    .pricing-title {
+        margin-bottom: 100px;
+    }
 
     .titlecolor {
         font-size: 35px;
