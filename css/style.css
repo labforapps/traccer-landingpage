@@ -617,12 +617,18 @@ li.space {
 }
 
 @media screen and (max-width: 1430px) {
+    
+    .download-app-container img {
+        width: 200px;
+    }
+    
     .step-row {
         font-size: 18px;
     }
     .step-row label {
         font-size: 18px;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
