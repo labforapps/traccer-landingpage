@@ -618,6 +618,10 @@ li.space {
 
 @media screen and (max-width: 1430px) {
     
+    .manage-projects-description h1{
+        font-size: 2.3em;
+    }
+    
     .download-app-container img {
         width: 200px;
     }
@@ -638,16 +642,22 @@ li.space {
     }
     
     .manage-projects-description h1{
-        font-size: 2em;
+        font-size: 1.8em;
+    }
+
+    .how-works-title h1{
+        font-size: 32px;
     }
 }
 
 @media screen and (max-width: 1024px) {
+    
+    .manage-projects-description h1{
+        font-size: 1.8em;
+    }
     .manage-projects-description p{
     }
     
-    .manage-projects-description h1{
-    }
 
     .titlecolor {
         font-size: 35px;
@@ -707,11 +717,17 @@ li.space {
         text-align: center;
     }
 
+    .pricing-section {
+        background-size: 80px;
+        background-position: left 30px top 30px;
+    }
+
     .pricing-features {
         margin-top: 0;
         margin-bottom: 55px;
         text-align: center;
     }
+
 
     .step-container {
         max-width: 71vw;
@@ -719,9 +735,17 @@ li.space {
 }
 
 @media screen and (max-width: 768px) {
+    .step-container {
+        max-width: 80vw;
+    }
+
+    .how-works-title h1{
+        font-size: 26px;
+    }
+
     .pricing-section {
         background-position: left 20px top 20px;
-        background-size: 60px;
+        background-size: 50px;
     }
 
     .pricing-title h2 {
@@ -730,10 +754,6 @@ li.space {
 
     .price_columns.profesional {
         transform: none;
-    }
-
-    .step-container {
-        max-width: 80vw;
     }
 }
 
@@ -762,6 +782,10 @@ li.space {
 
     .download-app-container img {
         width: 160px;
+    }
+
+    .how-works-title h1{
+        font-size: 20px;
     }
 
     .testimonies-users-title img {
@@ -828,6 +852,8 @@ li.space {
 }
 
 @media screen and (max-width: 320px) {
-
+    .testimonies-h {
+        font-size: 2.2em;
+    }
 }
 
