@@ -330,6 +330,10 @@ img.iphone {
     margin-bottom: 120px;
 }
 
+.titlecolor {
+    font-size: 50px;
+}
+
 .pricing-title h2 {
     font-weight: bold;    
 }
@@ -559,11 +563,13 @@ nav.navbar.navbar-default {
     color: white;
     background-color: transparent;
 }
+.btn-default {
+    box-shadow: 0px 0px 6px #FBB03B;
+}
 .btn-default:hover {
     color: white;
     background-color: #FBB03B;
     border-color: #FBB03B;
-    box-shadow: 0px 0px 6px #FBB03B;
 }
 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
     color: white;
@@ -610,6 +616,15 @@ li.space {
     }
 }
 
+@media screen and (max-width: 1430px) {
+    .step-row {
+        font-size: 18px;
+    }
+    .step-row label {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .manage-projects-description p{
         line-height: 30px;
@@ -626,6 +641,10 @@ li.space {
     }
     
     .manage-projects-description h1{
+    }
+
+    .titlecolor {
+        font-size: 35px;
     }
 }
 
@@ -646,6 +665,7 @@ li.space {
     .pricing-section {
         min-height: calc(60vh - 141px);
     }
+
 }
 
 @media screen and (max-width: 900px) {
