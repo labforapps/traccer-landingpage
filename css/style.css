@@ -629,6 +629,25 @@ li.space {
     }
 }
 
+@media screen and (max-width: 1024px) 
+    and (min-height: 1200px){
+      
+    .manage-projects-section {
+        min-height: 60vh;
+    }
+    .how-works-section {
+        min-height: calc(60vh - 68px);
+    }
+
+    .testimonies-section {
+        min-height: calc(60vh - 68px);
+    }
+
+    .pricing-section {
+        min-height: calc(60vh - 141px);
+    }
+}
+
 @media screen and (max-width: 900px) {
     .manage-projects-description{
         text-align: center;
