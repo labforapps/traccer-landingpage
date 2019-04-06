@@ -614,12 +614,15 @@ li.space {
     .manage-projects-description p{
         padding-right: 30%;
     }
+    .manage-projects-description p {
+        line-height: 31px;
+    }
 }
 
 @media screen and (max-width: 1430px) {
     
     .manage-projects-description h1{
-        font-size: 2.3em;
+        font-size: 2.1em;
     }
     
     .download-app-container img {
