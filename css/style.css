@@ -42,7 +42,10 @@
     min-height: 100vh;
     position: relative;
 }
-
+.modal-content {
+    
+    border-radius: inherit;
+}
 .manage-projects-background {
     background: url(../img/adult.png)no-repeat center;
     background-size: cover;
@@ -60,19 +63,21 @@
 
 .manage-projects-description {
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 .manage-projects-description h1{
     font-size: 2.5em;
     font-weight: bold;
-}
-
+}/*
+.modal-dialog {
+    width: 499px;
+}*/
 .manage-projects-description p{
     padding-right: 45%;
-    text-align: justify;
+    text-align: left;
     line-height: 40px;
-    margin-top: 35px;
+    margin-top: 8px;
 }
 
 .manage-projects-image {
@@ -99,9 +104,10 @@ img.iphone {
     background-color: #FBB03B;
     border-color: #FBB03B;
     border-radius: 1px;
-    margin-top: 55px;
+    /*margin-top: 55px;*/
+    margin-top: 28px;
     font-size: 1.2em;
-    padding: 25px 50px;
+    padding: 21px 50px;
 }
 
 .how-works-section {
@@ -512,6 +518,10 @@ footer{
     height:68px;
 
 }
+.monthly{
+    
+    font-size: 10px;
+}
 .navbar-default .navbar-nav>li>a {
     color: white;
     size: 23px;
@@ -612,17 +622,20 @@ li.space {
 
 @media screen and (max-width: 1600px) {
     .manage-projects-description p{
+        
+    font-family: HelveticaNeue-Medium;
         padding-right: 30%;
     }
     .manage-projects-description p {
-        line-height: 31px;
+        line-height: 23px;
     }
 }
 
 @media screen and (max-width: 1430px) {
     
     .manage-projects-description h1{
-        font-size: 2.1em;
+        font-size: 2.5em;
+        font-family: HelveticaNeue-Bold;
     }
     
     .download-app-container img {

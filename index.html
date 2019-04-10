@@ -52,7 +52,7 @@
                         proyectos que llevas ya sea como profesional
                         independiente o como empresa.</p>
                     <button type="button" data-toggle="modal" data-target="#register-user"
-                        class="btn btn-default btnRegister btn-lg">Registrate
+                        class="btn btn-default btnRegister btn-lg">¡Registrate
                         ya!</button>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding manage-projects-image">
@@ -252,7 +252,7 @@
                             <ul class="price">
                                 <li class="priceheader">Básico</li>
                                 <li class="grey">
-                                    <div class="grey-border">US$20 / Mensual</div>
+                                    <div class="grey-border">US$20 / <span class="monthly">Mensual</span></div>
                                 </li>
                                 <li class="grey">
                                     <div class="grey-border">1</div>
@@ -283,7 +283,7 @@
                         <div class="price_columns profesional ">
                             <ul class="price">
                                 <li class="priceheader" style="background-color: #FBB03B;border-color: #FBB03B;">
-                                    Profesional</li>
+                                    Professional</li>
                                 <li class="grey">
                                     <div class="grey-border">US$25 / Mensual</div>
                                 </li>
@@ -317,7 +317,7 @@
                             <ul class="price">
                                 <li class="priceheader">Business</li>
                                 <li class="grey">
-                                    <div class="grey-border">US$50 / Mensual</div>
+                                    <div class="grey-border">US$50 / <span class="monthly">Mensual</span></div>
                                 </li>
                                 <li class="grey">
                                     <div class="grey-border">1-10</div>
@@ -361,25 +361,42 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="form-group">
-                            <label for="complete-name" class="control-label labelform">Nombre Completo:</label>
-                            <input type="text" class="form-control inputstyle" value="" placeholder="Nombre y Apellido"
-                                id="Complete-name">
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <div class="form-group">
+                                    <label for="complete-name" class="control-label labelform">Nombre Completo:</label>
+                                    <input type="text" class="form-control inputstyle" value=""
+                                        placeholder="Nombre y Apellido" id="Complete-name">
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="Email" class="control-label labelform">Email:</label>
-                            <input type="text" class="form-control inputstyle" id="Email" value=""
-                                placeholder="Correo electrónico">
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <div class="form-group">
+                                    <label for="Email" class="control-label labelform">Email:</label>
+                                    <input type="text" class="form-control inputstyle" id="Email" value=""
+                                        placeholder="Correo electrónico">
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="contact-phone" class="control-label labelform">Teléfono de contacto:</label>
-                            <input type="text" class="form-control inputstyle" id="contact-phone" value=""
-                                placeholder="Celular">
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <div class="form-group">
+                                    <label for="contact-phone" class="control-label labelform">Teléfono de
+                                        contacto:</label>
+                                    <input type="text" class="form-control inputstyle" id="contact-phone" value=""
+                                        placeholder="Celular">
+                                </div>
+                            </div>
                         </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Acepto los términos y condiciones.
-                            </label>
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Acepto los términos y condiciones.
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div id="alert" class="alert alert-success alert-dismissible">
                             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
