@@ -67,7 +67,7 @@
 }
 
 .manage-projects-description h1{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
 }/*
 .modal-dialog {
@@ -79,11 +79,13 @@
     font-family: Helvetica;
     text-align: center;
 }
-.manage-projects-description p{
+
+.manage-projects-description p {
     padding-right: 45%;
     text-align: left;
-    line-height: 40px;
+    line-height: 30px;
     margin-top: 8px;
+    font-size: 22px;
 }
 
 .manage-projects-image {
@@ -628,8 +630,6 @@ li.space {
 
 @media screen and (max-width: 1600px) {
     .manage-projects-description p{
-        
-    font-family: HelveticaNeue-Medium;
         padding-right: 30%;
     }
     .manage-projects-description p {
