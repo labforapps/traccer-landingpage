@@ -75,7 +75,7 @@
 }*/
 .successTitle{
     
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-family: Helvetica;
     text-align: center;
 }
@@ -180,7 +180,14 @@ img.iphone {
     margin-left: 11px;
     margin-right: 11px;
 }
-
+.modal-aligh{
+    text-align: center;
+}
+.success-P{
+    margin: 9px;
+    padding: 0px 117px;
+    color: #014A83;
+}
 .step-row {
     color: #fff;
     font-weight: 100;
@@ -634,6 +641,8 @@ li.space {
     }
     .manage-projects-description p {
         line-height: 23px;
+        
+    font-size: 19px;
     }
 }
 
@@ -820,6 +829,14 @@ li.space {
     .testimonies-users-title .tut-header {
         font-size: 28px;
     }
+
+    .success-P {
+        padding: 0px 10%;
+    }
+    .successTitle {
+        font-size: 2.0em;
+    }
+
 }
 
 @media screen and (max-width: 480px) {

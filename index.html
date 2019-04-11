@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Traccer</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -45,7 +46,7 @@
         <div class="manage-projects-background"></div>
         <div class="container-fluid">
             <div class="manage-projects-container">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 manage-projects-description">
+                <div class="animated bounceInLeft col-xs-12 col-sm-12 col-md-6 col-lg-6 manage-projects-description">
                     <h1 class="">Controla tus proyectos</h1>
                     <p class="">Traccer es una app que te permite llevar el control
                         de todas las transacciones relacionadas a los
@@ -55,7 +56,7 @@
                         class="btn btn-default btnRegister btn-lg">¡Registrate
                         ya!</button>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding manage-projects-image">
+                <div class="animated bounceInRight col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding manage-projects-image">
                     <img class="iphone" src="img/Mukai@2x.png" alt="logo traccer">
                 </div>
             </div>
@@ -419,19 +420,22 @@
 
 
     <div class="modal fade" id="MessageAccount" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body modal-aligh">
                         <form>
                            <h4 class="modal-title titlemodal successTitle">Gracias por registarte</h4>
-                           <p class="">Pronto estaremos listo para que disfrutes de manejar tu Proyectos
+                           <p class="success-P">Pronto estaremos listo para que disfrutes de manejar tu Proyectos
                                desde la palma de tu mano.
                            </p>  
-                           <button type="button" class="btn btn-primary btncolor" onclick="register()">Entendido</button>
+                           <div style=" margin-bottom: 43px;margin-top: 30px;">
+                                <img width="100"  src="img/user2.png">
+                           </div>
+                           <button type="button" style="margin-bottom: 51px;" class="btn btn-primary btncolor" onclick="register()">Entendido</button>
                         </form>
                     </div>
                 </div><!-- /.modal-content -->
