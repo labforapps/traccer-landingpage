@@ -34,9 +34,9 @@ var user={
     }
 });
 divsToHide.style.display="block";
-setTimeout(function() {
+//setTimeout(function() {
 $('#register-user').modal('hide');
-location.reload();}, 4000);
+//location.reload();}, 4000);
   }
   else{
     alertdanger.style.display="block";

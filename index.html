@@ -410,13 +410,34 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default btncancel" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary btncolor" onclick="register()">Crear</button>
+                    <button type="button" class="btn btn-primary btncolor" onclick="register()" data-toggle="modal"
+                            data-target="#MessageAccount">Crear</button>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
 
+    <div class="modal fade" id="MessageAccount" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                           <h4 class="modal-title titlemodal successTitle">Gracias por registarte</h4>
+                           <p class="">Pronto estaremos listo para que disfrutes de manejar tu Proyectos
+                               desde la palma de tu mano.
+                           </p>  
+                           <button type="button" class="btn btn-primary btncolor" onclick="register()">Entendido</button>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/CallAPI.js"></script>
