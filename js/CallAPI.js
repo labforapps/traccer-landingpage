@@ -3,12 +3,20 @@ $(document).ready(function () {
   var divsToHide = document.getElementById("alert");
   var alertdanger = document.getElementById("alertdanger");
   alertdanger.style.display = "none";
+  intropage()
 });
+
+function intropage() {
+  setTimeout(function () {
+    $(".introPage").fadeOut();
+    $(".mainPage").fadeIn();
+  }, 800);
+}
 function register() {
 
-  var Email = document.getElementById("Email").value;
-  var Name = document.getElementById("Complete-name").value;
-  var Phone = document.getElementById("contact-phone").value;
+  var Email = $("#Email").val();
+  var Name = $("#Complete-name").val();
+  var Phone = $("#contact-phone").val();
   var alertdanger = document.getElementById("alertdanger");
 
   alertdanger.style.display = "none";
@@ -29,8 +37,15 @@ function register() {
 
       }
     });
+
     $('#register-user').modal('hide');
-    $('#MessageAccount').modal('show');
+    setTimeout(function() {
+      $('#MessageAccount').modal('show');
+    }, 500);
+
+    $('#Email').val('');
+    $('#Complete-name').val('');
+    $('#contact-phone').val('');
   }
   else {
     alertdanger.style.display = "block";
@@ -38,7 +53,4 @@ function register() {
       alertdanger.style.display = "none";
     }, 4000);
   }
-}
-function ReloadThePage() {
-  location.reload();
 }

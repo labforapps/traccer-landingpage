@@ -87,6 +87,34 @@
     margin-top: 8px;
     font-size: 22px;
 }
+.introPage {
+    background-image: linear-gradient(90deg,#014A83, #03243F);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999999999999999999;
+    text-align: center;
+    position: relative;
+}
+
+
+.introPage .intro-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+.introPage .intro-logo {
+    width: 250px;
+}
+
+.introPage .intro-spinner {
+    width: 45px;
+}
 
 .manage-projects-image {
     margin: 45px 0;
