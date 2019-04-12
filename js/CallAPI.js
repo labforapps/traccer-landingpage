@@ -39,3 +39,6 @@ function register() {
     }, 4000);
   }
 }
+function ReloadThePage() {
+  location.reload();
+}
