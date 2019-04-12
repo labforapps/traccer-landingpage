@@ -139,6 +139,18 @@ img.iphone {
     height: 100%;
     position: absolute;
 }
+.how-works-third-background { 
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.how-works-third-background img {
+    height: 100%; 
+    vertical-align: middle;
+    width:  700px;
+}
 
 .how-works-container {
     margin-top: 120px;
@@ -679,6 +691,11 @@ li.space {
     .how-works-title h1{
         font-size: 32px;
     }
+
+    
+    .how-works-third-background img {
+        width:  500px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -837,6 +854,10 @@ li.space {
         font-size: 2.0em;
     }
 
+    .how-works-third-background img {
+        width:  400px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -891,11 +912,19 @@ li.space {
     .testimonies-users-title .tut-header {
         font-size: 20px;
     }
+
+    .how-works-third-background img {
+        width:  300px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .testimonies-h {
         font-size: 2.2em;
+    }
+
+    .how-works-third-background img {
+        width:  200px;
     }
 }
 
