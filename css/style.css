@@ -681,8 +681,11 @@ li.space {
     }
     .manage-projects-description p {
         line-height: 23px;
-        
-    font-size: 19px;
+        font-size: 19px;
+    }
+
+    .how-works-third-background img {
+        width: 600px;
     }
 }
 
