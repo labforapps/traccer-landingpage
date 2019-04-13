@@ -701,7 +701,11 @@ li.space {
         font-size: 18px;
     }
     .step-row label {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .step-icon-label {
+        margin-left: 0;
     }
 
 }
