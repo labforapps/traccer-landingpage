@@ -676,17 +676,20 @@ li.space {
 
 
 @media screen and (max-width: 1600px) {
-    .manage-projects-description p{
-        padding-right: 30%;
+    .manage-projects-description h1{
+        font-weight: 500;
     }
+
     .manage-projects-description p {
         line-height: 23px;
         font-size: 19px;
+        padding-right: 30%;
     }
 
     .how-works-third-background img {
-        width: 600px;
+        width: 550px;
     }
+    
 }
 
 @media screen and (max-width: 1430px) {
