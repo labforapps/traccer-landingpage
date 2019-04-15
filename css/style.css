@@ -745,6 +745,10 @@ li.space {
     .how-works-third-background img {
         width:  500px;
     }
+
+    .pricing-title {
+        margin-bottom: 120px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
