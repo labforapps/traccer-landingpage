@@ -94,7 +94,6 @@
     position: fixed;
     z-index: 99999999999999999999;
     text-align: center;
-    position: relative;
 }
 
 
@@ -108,6 +107,7 @@
     height: 30%;
     margin: auto;
 }
+
 .introPage .intro-logo {
     width: 250px;
 }

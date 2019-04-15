@@ -8,9 +8,9 @@ $(document).ready(function () {
 
 function intropage() {
   setTimeout(function () {
-    $(".introPage").fadeOut();
+    // $(".introPage").fadeOut();
     $(".mainPage").fadeIn();
-  }, 4000);
+  }, 3600);
 }
 function register() {
 
