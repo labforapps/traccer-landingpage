@@ -38,6 +38,12 @@
 * {
     font-family: Helvetica, sans-serif;
 }
+
+.traccerlogo {
+    width: 180px;
+    margin-top: 4px;
+}
+
 .manage-projects-section {
     min-height: 100vh;
     position: relative;
@@ -46,6 +52,7 @@
     
     border-radius: inherit;
 }
+
 .manage-projects-background {
     background: url(../img/adult.png)no-repeat center;
     background-size: cover;
@@ -94,6 +101,7 @@
     position: fixed;
     z-index: 99999999999999999999;
     text-align: center;
+    animation-duration: 2.5s;
 }
 
 
@@ -113,7 +121,7 @@
 }
 
 .introPage .intro-spinner {
-    width: 45px;
+    width: 20px;
 }
 
 .manage-projects-image {
@@ -388,7 +396,7 @@ img.iphone {
 .pricing-title {
     color:#014A83;
     margin-top: 55px;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .titlecolor {
@@ -714,6 +722,9 @@ li.space {
         margin-left: 0;
     }
 
+    .pricing-title {
+        margin-bottom: 85px;
+    }
 }
 
 @media screen and (max-width: 1200px) {

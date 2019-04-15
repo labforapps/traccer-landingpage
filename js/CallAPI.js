@@ -10,7 +10,7 @@ function intropage() {
   setTimeout(function () {
     // $(".introPage").fadeOut();
     $(".mainPage").fadeIn();
-  }, 3600);
+  }, 3250);
 }
 function register() {
 
