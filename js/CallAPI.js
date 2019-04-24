@@ -8,7 +8,6 @@ $(document).ready(function () {
 
 function intropage() {
   setTimeout(function () {
-    // $(".introPage").fadeOut();
     $(".mainPage").fadeIn();
   }, 3250);
 }
