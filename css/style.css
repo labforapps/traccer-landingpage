@@ -952,7 +952,7 @@ li.space {
 }
 
 @media screen and (max-width: 480px) {
-    .price .grey-border{
+    .check-green{
         color:#15d315!important;
     }
     .manage-projects-section {
@@ -1064,7 +1064,7 @@ li.space {
         /*width: 160px;
         margin-left: 89px;*/
         /*width: 113.5px;*/
-        width: 100px;
+        width: 105px;
     }
     .step-icon-label {
         margin-left: 0;
