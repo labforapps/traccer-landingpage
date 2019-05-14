@@ -952,7 +952,9 @@ li.space {
 }
 
 @media screen and (max-width: 480px) {
-
+    .price .grey-border{
+        color:#4bd34b!important;
+    }
     .manage-projects-section {
         min-height: 0;
     }
@@ -1061,7 +1063,8 @@ li.space {
     .download-app-container img {
         /*width: 160px;
         margin-left: 89px;*/
-        width: 113.5px;
+        /*width: 113.5px;*/
+        width: 100px;
     }
     .step-icon-label {
         margin-left: 0;
