@@ -434,6 +434,10 @@ img.iphone {
     border-radius: 20px;
 }
 
+.check-green {
+    color:#15d315!important;
+    content: "&#10004";
+}
 .pricing-features {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -952,9 +956,6 @@ li.space {
 }
 
 @media screen and (max-width: 480px) {
-    .check-green{
-        color:#15d315!important;
-    }
     .manage-projects-section {
         min-height: 0;
     }
