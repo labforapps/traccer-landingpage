@@ -43,7 +43,10 @@
     width: 180px;
     margin-top: 4px;
 }
-
+.using-Traccer{
+    
+    visibility:  hidden ;
+    }
 .manage-projects-section {
     min-height: 100vh;
     position: relative;
@@ -54,7 +57,7 @@
 }
 
 .manage-projects-background {
-    background: url(../img/adult.png)no-repeat center;
+    background: url(../img/adult.jpg)no-repeat center;
     background-size: cover;
     background-position: center center;
     filter: blur(3px) brightness(50%);
@@ -63,7 +66,9 @@
     width: 100%;
 
 }
-
+.user-ballon {
+    visibility: hidden;
+}
 .manage-projects-container {
     margin-top: 120px;
 }
@@ -245,8 +250,10 @@ img.iphone {
 }
 
 .step-row-icons {
-    padding-left: 75px; 
-    margin-bottom: 30px
+   
+    margin-bottom: 30px;
+    padding-left: 68px; 
+    /* padding-left: 75px; */
 }
 
 .step-icon {
@@ -685,7 +692,7 @@ li.space {
 
 @media screen and (max-width: 1600px) {
     .manage-projects-description h1{
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .manage-projects-description p {
@@ -698,6 +705,12 @@ li.space {
         width: 550px;
     }
     
+}
+
+@media screen and (min-width: 1430px) {
+    .step-row-icons {
+        padding-left: 75px;
+    }
 }
 
 @media screen and (max-width: 1430px) {
@@ -759,11 +772,16 @@ li.space {
     .manage-projects-description p{
     }
     
+    
+
+
     .pricing-title {
         margin-bottom: 100px;
     }
 
     .titlecolor {
+        
+    margin-bottom: 49px;
         font-size: 35px;
     }
 }
@@ -801,6 +819,16 @@ li.space {
         font-size: 1.8em;
     }
 
+    
+    .step-row .step-row-content {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .step-row-icons {
+        padding-left: 115px;
+    }
+
     .how-works-image img {
         max-width: 50vw;
     }
@@ -810,7 +838,8 @@ li.space {
     }
 
     .testimonie-user img{
-        width: 220px;
+        /*width: 220px;*/
+        width: 200px;
     }
     
     .profesion{
@@ -819,6 +848,7 @@ li.space {
 
     .testimonies-sub-title {
         text-align: center;
+        visibility: hidden;
     }
 
     .pricing-section {
@@ -859,9 +889,18 @@ li.space {
     .price_columns.profesional {
         transform: none;
     }
+
+    img.iphone {
+        margin-left: -7px;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 682px) {
+    img.iphone {
+        width: 100%;
+        margin-left: 1px;
+    }
     .step-container {
         max-width: 90vw;
     }
@@ -871,6 +910,7 @@ li.space {
     .manage-projects-description p{
         padding-right: 0;
         padding-left: 0;
+        text-align: center;
     }
 
     .step-row {
@@ -880,16 +920,14 @@ li.space {
         font-size: 16px;
     }
 
-    .step-row-icons {
-        /* padding-left: 0px; */
-    }
-
     .download-app-container img {
         width: 160px;
     }
 
     .how-works-title h1{
-        font-size: 20px;
+      /*  font-size: 20px;*/
+      font-size: 27px;
+    text-align: center;
     }
 
     .testimonies-users-title img {
@@ -914,6 +952,58 @@ li.space {
 }
 
 @media screen and (max-width: 480px) {
+
+    .manage-projects-section {
+        min-height: 0;
+    }
+
+    img.iphone {
+        margin-bottom: 50px;
+    }
+
+    .btnPlanes {
+        font-size: 17px;
+        width: 148px;
+        height: 48px;
+        padding: 13px;
+    }
+    .pricing-title h2 {
+        font-size: 32px;
+    }
+    .pricing-section {
+        background-image: none;
+    }
+    .user-ballon {
+        width: 76px !important;
+        visibility: unset !important;
+    }
+    .using-Traccer{
+        
+    font-weight: unset;
+        margin-top: 23px !important;
+        font-size: 21px;
+        color: white;
+    visibility: unset !important;
+    }
+    .testimonies-sub-title {
+        margin-top: -32px;
+    }
+    .profesion {
+        text-align: center !important;
+    }
+  
+    .imgsize{
+        width:55px;
+    }
+    .testimonies-h {
+        font-size: 2.1em;
+    }
+    hr{
+    display: none;
+    }
+    .block{
+        display:block !important;
+    }
     .manage-projects-description h1 {
         font-size: 1.2em;
     }
@@ -921,6 +1011,7 @@ li.space {
     .manage-projects-description p {
         line-height: 25px;
         font-size: 16px;
+        text-align: center;
     }
 
     .btnRegister {
@@ -942,42 +1033,110 @@ li.space {
     }
     .step-row {
         font-size: 14px;
+        margin-bottom: 11px;
     }
     .step-row label {
         font-size: 14px;
     }
 
     .step-row-icons {
-        padding-left: 0px;
-    }
+       /* padding-left: 15px;
+        text-align: center;*/
+     
+        padding-top: 9px;   
+        padding-left: 63px;
+        text-align: left;
 
+    }
+    .step-icon {
+        margin-right: 3px;
+    margin-bottom: 6px;
+    }
+    .introPage .intro-logo {
+        width: 180px;
+    }
+    .manage-projects-image {
+        margin-left: -12px;
+    }
     .download-app-container img {
-        width: 160px;
+        /*width: 160px;
+        margin-left: 89px;*/
+        width: 113.5px;
     }
     .step-icon-label {
         margin-left: 0;
     }
-
+    .user-visible{
+        width: 100px !important;
+        visibility: unset !important;
+    }
     .testimonies-users-title img {
         margin-top: -10px;
         width: 36px;
+        visibility: hidden;
     }
     .testimonies-users-title .tut-header {
-        font-size: 20px;
+       /* font-size: 20px;*/
+       font-size: 30px;
+       margin-top: -13px;
+    }
+
+    .testimonie-user:last-child {
+        margin-bottom: 150px;
     }
 
     .how-works-third-background img {
         width:  300px;
     }
+
+   
 }
 
 @media screen and (max-width: 320px) {
     .testimonies-h {
-        font-size: 2.2em;
+        font-size: 1.7em;
     }
 
     .how-works-third-background img {
         width:  200px;
     }
+    .pricing-title h2 {
+        font-size: 26px!important;
+    }
+    .imgsize {
+        width: 37px;
+    }
+    .testimonies-users-title .tut-header {
+        font-size: 24px;
+    }
+    .download-app-container img {
+        width: 83.5px;
+    }
+    .step-row {
+        font-size: 11px!important;
+    
+    }.btnPlanes {
+        font-size: 15px;
+        width: 109px;
+        height: 39px;
+        padding: 9px;
+    }
 }
 
+
+@media screen and (max-width: 360px) {
+    .pricing-title h2 {
+        font-size: 27px;
+    }
+    .imgsize {
+        width: 45px;
+    }
+    .step-row {
+        font-size: 12px;
+    }
+    .btnPlanes {
+        font-size: 15px;
+        width: 124px;
+        height: 41px;
+    }    
+}
