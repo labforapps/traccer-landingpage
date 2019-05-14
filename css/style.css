@@ -436,7 +436,7 @@ img.iphone {
 
 .check-green {
     color:#15d315!important;
-    content: "&#10004";
+    content: "✔\fe0e";
 }
 .pricing-features {
     margin-top: 25px;
